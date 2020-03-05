@@ -70,7 +70,7 @@ void Merge_sort(int *num,int l,int r){
      		tmp[k++] = num[ind2++];
      	}
      }
-    memcpy(num+l,tmp,sizeof(r - l + 1));
+    memcpy(num+l,tmp,sizeof(int) * (r - l + 1));
     free(tmp);
 }
 
