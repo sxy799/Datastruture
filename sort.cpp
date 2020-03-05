@@ -108,7 +108,7 @@ void quick_sort_op(int *num,int l,int r){///n+m+1
         ++x,--y;
       }
     }while (x <= y);
-    num[x] = z;
+    //num[x] = z;
     quick_sort_op(num,l,y);
     quick_sort_op(num,x,r);
     return;
